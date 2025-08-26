@@ -1,0 +1,142 @@
+.servicio-container {
+  width: 96vw;
+  min-height: 100vh;
+/* Para que ocupe también toda la altura de la pantalla */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  color: white;
+  overflow-y: auto;
+}
+
+.contenido-servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.imagen-superior {
+  width: 70%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: contain; /* ← Mostrará la imagen entera sin recortarla */
+}
+
+.servicio-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+}
+
+.servicio-titulo {
+  color: rgb(208, 210, 211);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.servicio-texto {
+color: rgb(208, 210, 211);  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.servicio-boton {
+  background-color: rgb(59, 127, 216);
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.75rem;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.servicio-boton:hover {
+  background-color: #0fbe2c;
+  transform: scale(1.05);
+}
+
+/* Fondos por servicio */
+.construccion-bg {
+  background-image: url('/images/construccion.jpg');
+}
+
+.climatizacion-bg {
+  background-image: url('/images/climatizacion.jpeg');
+}
+
+.pintura-bg {
+  background-image: url('/images/pintura.jpg');
+}
+
+.jardineria-bg {
+  background-image: url('/images/jardineria.jpg');
+}
+
+.seguridad-bg {
+  background-image: url('/images/seguridad.jpg');
+}
+
+.electricidad-bg {
+  background-image: url('/images/electricidad.jpg');
+}
+
+.aberturas-bg {
+  background-image: url("/images/aberturas.jpg");
+}
+
+.carpinteria-bg {
+  background-image: url("/images/carpinteria.jpg");
+}
+
+.laqueado-bg {
+  background-image: url("/images/laqueado.jpg");
+}
+
+.footer {
+  background-color: #1f2937;
+  height: auto;
+  width: 100%;
+  color: #f3f4f6;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer-contenido p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+/* Media queries */
+@media (max-width: 640px) {
+  .servicio-titulo {
+    font-size: 2rem;
+  }
+
+  .servicio-texto {
+    font-size: 1rem;
+  }
+
+  .servicio-boton {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .contenido-servicio {
+    padding: 0 1rem;
+  }
+
+
+
+}
