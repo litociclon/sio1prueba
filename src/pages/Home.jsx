@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaEnvelope } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 import "./styleHome.css"
 import decorativa from '../assets/siodecorativa.jpeg';
 import img1 from '../assets/carrusel1.jpg';
@@ -92,7 +93,7 @@ const Home = () => {
                     alt={servicio.nombre + " icono"}
                   /> 
                   <div className="service-link-wrapper">
-                    <a href={servicio.ruta} className="service-link">Conoce más</a>
+                   <Link to={servicio.ruta} className="service-link">Conoce más</Link>
                   </div>
                 </div>
               </div>
