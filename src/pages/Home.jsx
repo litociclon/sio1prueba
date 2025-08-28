@@ -15,15 +15,15 @@ import logoFooter from '../assets/SioFooter.png';
 const images = [img1, img2, img3, img4, img5];
 
 const servicios = [
-  { nombre: 'Construcción', imagen: 'construccion.jpg', icono: 'construccion.jpeg', ruta: '/servicio/construccion' },
-  { nombre: 'Climatización', imagen: 'climatizacion.jpeg', icono: 'climatizacion2.jpeg', ruta: '/servicio/climatizacion' },
-  { nombre: 'Pintura', imagen: 'pintura.jpg', icono: 'pintura.png', ruta: '/servicio/pintura' },
-  { nombre: 'Jardinería', imagen: 'jardineria.jpeg', icono: 'jardineria.png', ruta: '/servicio/jardineria' },
-  { nombre: 'Seguridad', imagen: 'seguridad.jpg', icono: 'seguridad.jpeg', ruta: '/servicio/seguridad' },
-  { nombre: 'Electricidad', imagen: 'electricidad.jpg', icono: 'electricidad.png', ruta: '/servicio/electricidad' },
-  { nombre: 'Aberturas', imagen: 'aberturas.jpg', icono: 'aberturas.png', ruta: '/servicio/aberturas' },
-  { nombre: 'Carpinteria', imagen: 'carpinteria.jpg', icono: 'carpinteria.png', ruta: '/servicio/carpinteria' },
-  { nombre: 'Laqueado', imagen: 'laqueado.jpg', icono: 'laqueado.png', ruta: '/servicio/laqueado' },
+  { nombre: 'Construcción', imagen: 'servicioconstruccion.jpg', icono: 'iconconstruccion.jpeg', ruta: '/servicio/construccion' },
+  { nombre: 'Climatización', imagen: 'servicioclimatizacion.jpeg', icono: 'iconclimatizacion2.jpeg', ruta: '/servicio/climatizacion' },
+  { nombre: 'Pintura', imagen: 'serviciopintura.jpg', icono: 'iconpintura.png', ruta: '/servicio/pintura' },
+  { nombre: 'Jardinería', imagen: 'serviciojardineria.jpeg', icono: 'iconjardineria.png', ruta: '/servicio/jardineria' },
+  { nombre: 'Seguridad', imagen: 'servicioseguridad.jpg', icono: 'iconseguridad.jpeg', ruta: '/servicio/seguridad' },
+  { nombre: 'Electricidad', imagen: 'servicioelectricidad.jpg', icono: 'iconelectricidad.png', ruta: '/servicio/electricidad' },
+  { nombre: 'Aberturas', imagen: 'servicioaberturas.jpg', icono: 'iconaberturas.png', ruta: '/servicio/aberturas' },
+  { nombre: 'Carpinteria', imagen: 'serviciocarpinteria.jpg', icono: 'iconcarpinteria.png', ruta: '/servicio/carpinteria' },
+  { nombre: 'Laqueado', imagen: 'serviciolaqueado.jpg', icono: 'iconlaqueado.png', ruta: '/servicio/laqueado' },
 ];
 
 const Home = () => {
@@ -80,14 +80,14 @@ const Home = () => {
             {servicios.map((servicio) => (
               <div key={servicio.nombre} className="service-card">
                 <img
-                  src={`/src/assets/${servicio.imagen}`}
+                  src={`/images/${servicio.imagen}`}
                   alt={servicio.nombre}
                   className="service-image"
                 />
                 <div className="service-content">
                   <h3 className="service-title">{servicio.nombre}</h3>
                   <img 
-                    src={`/src/assets/${servicio.icono}`} 
+                    src={`/images/${servicio.icono}`} 
                     className="service-icon"
                     alt={servicio.nombre + " icono"}
                   /> 
