@@ -63,7 +63,7 @@ const BudgetModal = ({ isOpen, onClose }) => {
                 <option value="Seguridad">Seguridad</option>
                 <option value="Electricidad">Electricidad</option>
               </select>
-              <textarea name="message" placeholder="Contanos qué necesitás... y te contactamos a la brevedad" required></textarea>
+              <textarea name="message" placeholder="Contanos qué necesitás y uno de nuestros asesores te responderá a la brevedad" required></textarea>
               <button type="submit">Enviar</button>
             </form>
           </>
