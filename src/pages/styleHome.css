@@ -16,6 +16,22 @@
   height: 250px;
   object-fit: cover;
 }
+.decorativa-image2{
+  display: none;
+}
+@media (max-width: 768px){
+  
+  .decorativa-image{
+    display: none;
+  }
+
+  .decorativa-image2{
+    display: flex;
+    width: 100%;
+    height: 250px;
+  object-fit: cover;
+  }
+}
 
 .carousel {
   width: 100%;
@@ -83,10 +99,10 @@
 
 .equipo-img {
   width: 100%;
-  height: 20rem;
+  height: 27rem;
   object-fit: cover;
   border-radius: 1rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
 }
 
 /* 🔹 Services */

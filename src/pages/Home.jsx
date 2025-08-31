@@ -4,6 +4,7 @@ import { FaWhatsapp, FaInstagram, FaFacebook, FaEnvelope } from 'react-icons/fa'
 import { Link } from "react-router-dom";
 import "./styleHome.css"
 import decorativa from '../assets/siodecorativa.jpeg';
+import decorativa2 from '../assets/siodecorativa2.jpeg';
 import img1 from '../assets/carrusel1.jpg';
 import img2 from '../assets/carrusel2.jpg';
 import img3 from '../assets/carrusel3.jpeg';
@@ -11,7 +12,7 @@ import img4 from '../assets/carrusel4.jpg';
 import img5 from '../assets/carrusel5.jpg';
 
 import equipo from '../assets/equipo.jpeg';
-import logoFooter from '../assets/SioFooter.png';
+import logoFooter from '../assets/SioFooter2.png';
 
 const images = [img1, img2, img3, img4, img5];
 
@@ -43,6 +44,7 @@ const Home = () => {
 
       <div className="home">
         <img src={decorativa} alt="Decorativa" className="decorativa-image" />
+        <img src={decorativa2} alt="Decorativa" className='decorativa-image2' />
 
         <div className="carousel">
           {images.map((img, index) => (
@@ -65,9 +67,9 @@ const Home = () => {
                 albañileria, electricidad, camaras de seguridad y climatizacion profesional, dando asi una cantidad de opciones
                 para que no tengas que buscarlos de manera separadas, sino contratar todo en el mismo lugar.
               </p>
-              <p>
+              <h3>
                  Nuestro lema es: Soluciones de calidad, clientes de calidad.
-              </p>
+              </h3>
             </div>
             <div className="about-image">
               <img src={equipo} alt="Nuestro equipo" className="equipo-img" />
