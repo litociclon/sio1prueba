@@ -94,6 +94,7 @@
 }
 
 .about-image {
+  display: none;
   flex: 1;
 }
 

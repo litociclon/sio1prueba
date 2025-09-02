@@ -22,7 +22,7 @@ const ServicioCarpinteria = () => {
     
     <div className="servicio-box">
       <h1 className="servicio-titulo">Carpinteria</h1>
-      <h3 className="servicio-texto">- INSTALACIÓN, REPARACIÓN DE AIRES ACONDICIONADOS (SPLIT, PISO TECHO, CENTRALES)</h3>
+      <h3 className="servicio-texto"></h3>
     
 
       <button onClick={abrirModal} className="servicio-boton">Pedir Presupuesto</button>
