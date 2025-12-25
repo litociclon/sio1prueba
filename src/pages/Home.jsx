@@ -10,9 +10,10 @@ import img2 from '../assets/carrusel2.jpg';
 import img3 from '../assets/carrusel3.jpeg';
 import img4 from '../assets/carrusel4.jpg';
 import img5 from '../assets/carrusel5.jpg';
-
 import equipo from '../assets/equipo.jpeg';
 import logoFooter from '../assets/SioFooter2.png';
+import OfferPopup from "../components/OfferPopup";
+import OfferPopup2 from "../components/OfferPopup2";
 
 const images = [img1, img2, img3, img4, img5];
 
@@ -41,6 +42,9 @@ const Home = () => {
   return (
     <div id="inicio">
       <Navbar />  
+        <OfferPopup />
+         <OfferPopup2 />
+
 
       <div className="home">
         <img src={decorativa} alt="Decorativa" className="decorativa-image" />

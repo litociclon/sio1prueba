@@ -29,7 +29,7 @@ const ServicioClimatizacion = () => {
       <h3 className="servicio-texto">- CLIMATIZACIÓN DE PISCINAS.</h3>
       <h3 className="servicio-texto">- VENTA DE AIRES ACONDICIONADOS, HELADERAS (NUEVO, USADO)</h3>
 
-      <button onClick={abrirModal} className="servicio-boton">Pedir Presupuesto</button>
+      <button onClick={abrirModal} className="servicio-boton">Pedi la promo</button>
       <button onClick={() => navigate("/")} className="servicio-boton">Volver al inicio</button>
     </div>
 

@@ -1,4 +1,16 @@
 # React + Vite
+PARA ACTIALIZAR EN HOSTINGER npm run build Y SUBIR TODO LO DE LA CARPETA dist
+
+
+
+
+
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
